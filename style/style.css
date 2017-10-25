@@ -8,10 +8,37 @@ td, th {
 }
 
 svg {
-  height: 150px;
+  height: 180px;
 }
 
 td:first-of-type, td:first-of-type > div {
-  height: 200px;
+  height: 180px;
   width: 250px;
+}
+
+.chart {
+  display: contents !important;
+  text-align: left;
+  position: relative !important;
+  font-size: 10px;
+  color: grey;
+}
+
+.top {
+  top: -183px;
+  position: absolute;
+}
+
+.max {
+  left: 7px;
+}
+
+.average {
+  right: 7px;
+}
+
+.min {
+  left: 7px;
+  top: -25px;
+  position: absolute;
 }
